@@ -1,0 +1,111 @@
+{
+    // autosave
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 750,
+    "jupyter.debugJustMyCode": false,
+    // tests
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    // format
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[notebook]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        },
+    },
+    // ruff
+    "ruff.importStrategy": "useBundled",
+    "ruff.organizeImports": true,
+    // mypy
+    "mypy-type-checker.preferDaemon": false,
+    "mypy-type-checker.importStrategy": "useBundled",
+    // editor
+    "editor.autoIndent": "full",
+    "editor.insertSpaces": true,
+    "editor.lineNumbers": "on",
+    "editor.matchBrackets": "always",
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        88
+    ],
+    "editor.tabSize": 4,
+    "editor.wordWrap": "off",
+    "editor.multiCursorLimit": 20000,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    // diff
+    "diffEditor.codeLens": true,
+    "diffEditor.renderSideBySide": false,
+    // vim
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.useSystemClipboard": true,
+    "files.exclude": {
+        "**/*.docx": true,
+        "**/*.jpg": true,
+        "**/*.png": true,
+        "**/*.gif": true,
+        "**/*.pdf": true,
+        "**/*.pyc": true,
+        "**/*.exe": true,
+        "**/*.flv": true,
+        "**/*.img": true,
+    },
+    // explorer
+    "window.title": "${rootNameShort}",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.autoReveal": false,
+    // notebooks
+    "notebook.formatOnCellExecution": true,
+    "notebook.formatOnSave.enabled": true,
+    "jupyter.askForKernelRestart": false,
+    // docstring format
+    "autoDocstring.docstringFormat": "numpy",
+    // terminal
+    "terminal.integrated.scrollback": 1000000,
+    // errors
+    "workbench.colorCustomizations": {
+        "problemsErrorIcon.foreground": "#E74856",
+        "editorError.foreground": "#E74856",
+        "problemsWarningIcon.foreground": "#FFD700",
+        "editorWarning.foreground": "#FFD700",
+    },
+    // vocabulary
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.userWords": [
+        "isort",
+        "mypy",
+        "ndarray",
+        "numpy",
+        "prvi",
+        "quantile",
+        "scrollback"
+    ],
+    // other
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.languageServer": "Pylance",
+    "python.analysis.autoImportCompletions": true,
+    "notebook.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}
